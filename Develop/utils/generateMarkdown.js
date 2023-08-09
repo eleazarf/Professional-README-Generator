@@ -12,14 +12,19 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   switch (license) {
-    case "MIT License":
-      return "https://img.shields.io/badge/license-MIT-green";
-    case "Apache Licence 2.0":
-      return "https://img.shields.io/badge/license-Apache-green"
-    case "GNU GPLv3":
-      return "https://img.shields.io/badge/license-GPL-green"
-    default:
-      return "";
+    switch (license) {
+      case "MIT License":
+        return "https://img.shields.io/badge/license-MIT-green";
+      case "Apache Licence 2.0":
+        return "https://img.shields.io/badge/license-Apache-green"
+      case "GNU GPLv3":
+        return "https://img.shields.io/badge/license-GPL-green"
+      default:
+        return "";
+    }
+    //https://img.shields.io/badge/license-MIT-green
+    //https://img.shields.io/badge/license-Apache-green
+    //https://img.shields.io/badge/license-GPL-green
 }
 
 // TODO: Create a function that returns the license section of README
