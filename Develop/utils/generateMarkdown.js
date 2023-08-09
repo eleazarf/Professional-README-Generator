@@ -12,7 +12,6 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   switch (license) {
-    switch (license) {
       case "MIT License":
         return "https://img.shields.io/badge/license-MIT-green";
       case "Apache Licence 2.0":
