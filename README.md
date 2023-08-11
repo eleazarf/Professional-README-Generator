@@ -6,14 +6,6 @@ This project aims to create markdown files for future project READMEs. It involv
 
 These guidelines will assist you in obtaining a copy of the project, setting it up on your local machine to facilitate development and testing endeavors.
 
-### Prerequisites
-
-The following programs must be installed on your machine:
-* [Git](https://git-scm.com/downloads)
-* [Node.js](https://nodejs.org/en/download/)
-
-Also need a github account. Get one [here](https://github.com/).
-
 ### Installing
 
 * Fork the project to your git account.
@@ -51,10 +43,10 @@ Also need a github account. Get one [here](https://github.com/).
     ```
 
 * Here you can see a walkthrough video for use the Professional Readme Generator:
-
-    [Walkthrough video of usage](https://drive.google.com/file/d/1cTq_1irYkblB4xPbZDMzyaSJ7GKsGVeJ/view)
     
     ![Gif file](Develop/ProfessionalReadmeGenerator.gif)
+
+    [Full walkthrough video of usage here](https://drive.google.com/file/d/1cTq_1irYkblB4xPbZDMzyaSJ7GKsGVeJ/view)
 
     
 
